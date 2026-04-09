@@ -33,6 +33,6 @@ Entrada --> Processamento --> Saída
 | / | Divisão | 20 / 2 | 10 |
 | /= | Dividir e Atribuir | x /= 2 | x = 10 |
 | ++ | Somar 1 ao resultado | x++ | 11 |
-| -- | Subtrair 1 do resultado | x-- | 9 |
+| -- | Subtrair 1 do resultado | x-- | 10 |
 | % | Resto da divisão | 9 % 3 | 0 |
 
