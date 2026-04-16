@@ -48,7 +48,7 @@ Entrada --> Processamento --> Saída
 
 ## Comparadores
 
-| Comporador | Significado |
+| Comparador | Significado |
 |----------|-----------|
 |  > |  Maior que  |
 | >= | Maior ou igual a |
