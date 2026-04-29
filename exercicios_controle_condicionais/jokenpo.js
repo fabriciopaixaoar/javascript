@@ -10,7 +10,7 @@ const prompt = require('prompt-sync')()
 let jogador, computador, novoJogo
 novoJogo = "n"
 
-do {
+do{
     // UX
 
     console.clear()
@@ -32,7 +32,6 @@ do {
     console.log("     JJJJJJJJJ        ooooooooooo   kkkkkkkk    kkkkkkk eeeeeeeeeeeeee    nnnnnn    nnnnnnPPPPPPPPPP            ooooooooooo   ");
     console.log("")
     console.log("")
-
     // Lógica do jogador
     console.log("1. Pedra")
     console.log("2. Papel")
@@ -40,8 +39,6 @@ do {
     console.log("")
     jogador = Number(prompt("Digite a opção desejada: "))
     console.log("")
-
-
     switch (jogador) {
         case 1:
             console.log("Jogador escolheu Pedra")
@@ -55,10 +52,8 @@ do {
         default:
             console.log("Opção inválida")
             break
-
     }
     console.log("")
-
     // Lógica do computador
     computador = Math.ceil(Math.random() * 3)
     switch (computador) {
@@ -74,12 +69,9 @@ do {
         default:
             console.log("Opção inválida")
             break
-
     }
     console.log("")
-
     // Lógica para determinar o Vencedor ou declarar Empate
-
     if (jogador === computador) {
         console.log("EMPATE")
     } else if ((jogador === 1 && computador === 3) || (jogador === 2 && computador === 1) || (jogador === 3 && computador === 2)) {
